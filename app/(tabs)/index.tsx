@@ -138,14 +138,13 @@ const styles = StyleSheet.create({
     VideoInformation: {
         width: "100%",
         height: 25,
-        padding: 5,
+        paddingLeft: 5,
         color: "lightgray",
         flexDirection: "row",
         gap: 10,
-
     },
-     // Shimmer Placeholder Styles
-     VideoThumbnailShimmer: {
+    // Shimmer Placeholder Styles
+    VideoThumbnailShimmer: {
         width: '100%',
         height: 200,
         borderRadius: 10,

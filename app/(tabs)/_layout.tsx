@@ -31,7 +31,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="category"
         options={{
-          title: 'Catefory',
+          title: 'Category',
           tabBarIcon: ({ color }) => <FontAwesome size={20} name="group" color={color} />,
           headerRight: () => (
             <View style={{ flexDirection: 'row', marginRight: 15 }}>
